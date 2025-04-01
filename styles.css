@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+}
