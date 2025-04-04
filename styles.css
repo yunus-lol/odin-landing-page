@@ -100,10 +100,31 @@ div.hero-content {
   text-align: center;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 80px;
 }
 
 .individual-box {
   display: flex;
   flex-wrap: wrap;
   width: 150px;
+}
+
+/* end of information section */
+
+/* start of quote section */
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-family: Roboto;
+  font-size: 36px light;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  font-family: Roboto;
+  font-weight: bold;
 }
