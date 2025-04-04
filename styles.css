@@ -46,6 +46,7 @@ a {
   color: #f9faf8;
   padding: 5px 20px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .hero-text {
@@ -92,4 +93,17 @@ div.hero-content {
 .box-text {
   font-family: Roboto;
   color: #5e5e5e
+}
+
+.boxes-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.individual-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
 }
