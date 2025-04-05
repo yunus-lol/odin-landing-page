@@ -115,6 +115,11 @@ div.hero-content {
 
 .quote-section {
   background-color: #e5e7eb;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .quote {
@@ -122,9 +127,13 @@ div.hero-content {
   font-size: 36px light;
   color: #1f2937;
   font-style: italic;
+  display: flex;
+  align-self: center;
+  width: 450px;
 }
 
 .quote-author {
   font-family: Roboto;
   font-weight: bold;
+  width: 450px;
 }
