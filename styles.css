@@ -47,6 +47,7 @@ a {
   padding: 5px 20px;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .hero-text {
@@ -136,4 +137,50 @@ div.hero-content {
   font-family: Roboto;
   font-weight: bold;
   width: 450px;
+}
+
+/* end of quote section */
+
+/* start of call to action section */
+
+.call-to-action-section {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 250px;
+  border-radius: 5px;
+}
+
+.call-to-action-title {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.call-to-action-subtext {
+  font-family: Roboto;
+  font-style: light;
+}
+
+.call-to-action-button {
+  font-family: Roboto;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+.footer-section {
+  background-color: #1f2937;
+}
+
+.footer-text {
+  font-family: Roboto;
+  color: #e5e7eb;
+  font-size: small;
+  text-align: center;
+  padding: 20px;
 }
